@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container{
+    @apply px-16 py-4;
+}
+h2{
+    @apply text-3xl font-bold mb-4;
+}
+h3, h4{
+    @apply text-lg mb-4 font-bold text-accent-two;
+}
+.socials {
+    @apply text-accent-three bg-accent-two rounded-full py-1 px-2 mr-2;
+}
+a:hover{
+    @apply text-accent-two;
+}
+.socials:hover {
+    @apply bg-transparent border-solid border-2 border-accent-two transition duration-200;
+}
+.navlink{
+    @apply mr-4 px-4;
+}
+.btn{
+    @apply bg-accent-two rounded-full px-4 py-1 text-accent-three;
+}
+.btn a:hover{
+    @apply text-primary;
+}
+.bgImg{
+    @apply bg-cover bg-center w-full h-screen
+}
+
+.flexItem{
+    @apply md:flex justify-between;
+}
+.card{
+    @apply mt-8 text-center p-4;
+}
+.card svg{
+    @apply m-auto text-accent-two mb-4;
+
+}
