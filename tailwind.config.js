@@ -11,7 +11,8 @@ module.exports = {
           one: '#ffffff',
           two: 'rgb(0,158,206)',
           three: '#f8f9fa',
-          four: '#E0E0E0',
+          four: 'rgb(153,153,153)',
+
         }        
     },
     backgroundImage: {
