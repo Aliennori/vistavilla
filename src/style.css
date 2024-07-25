@@ -7,7 +7,7 @@
     @apply px-24 py-4;
 }
 h2{
-    @apply text-3xl font-bold mb-4;
+    @apply text-3xl font-bold mb-4 text-accent-two;
 }
 h3, h4{
     @apply text-lg mb-4 font-bold text-accent-two;
@@ -51,6 +51,6 @@ a:hover{
     @apply p-2 bg-accent-four rounded-full;
 }
 .btn3{
-    @apply  bg-primary px-4 py-2 rounded-lg mt-6  hover:bg-transparent hover:border-2 hover:border-accent-three hover:text-accent-three transition duration-300;
+    @apply  bg-accent-two px-4 py-2 rounded-lg mt-6  hover:bg-primary  hover:text-accent-three transition duration-300;
 }
 
