@@ -48,6 +48,6 @@ a:hover{
     @apply  object-cover h-[64] w-full;
 }
 .btn2{
-    @apply pr-2;
+    @apply p-2 bg-accent-four rounded-full;
 }
 
