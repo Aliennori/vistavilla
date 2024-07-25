@@ -11,7 +11,7 @@ module.exports = {
           one: '#ffffff',
           two: 'rgb(0,158,206)',
           three: '#f8f9fa',
-          four: 'rgb(153,153,153)',
+          four: 'rgb(250,250,250)',
 
         }        
     },

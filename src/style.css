@@ -4,7 +4,7 @@
 
 
 .container{
-    @apply px-16 py-4;
+    @apply px-24 py-4;
 }
 h2{
     @apply text-3xl font-bold mb-4;
@@ -44,3 +44,10 @@ a:hover{
     @apply m-auto text-accent-two mb-4;
 
 }
+.indImg{
+    @apply  object-cover h-[64] w-full;
+}
+.btn2{
+    @apply pr-2;
+}
+
