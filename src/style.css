@@ -50,4 +50,7 @@ a:hover{
 .btn2{
     @apply p-2 bg-accent-four rounded-full;
 }
+.btn3{
+    @apply  bg-primary px-4 py-2 rounded-lg mt-6  hover:bg-transparent hover:border-2 hover:border-accent-three hover:text-accent-three transition duration-300;
+}
 

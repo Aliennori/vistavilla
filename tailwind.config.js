@@ -18,6 +18,7 @@ module.exports = {
     backgroundImage: {
       slide1:"url('images/prop1.jfif')",
       slide2:"url('images/prop2.jfif')",
+      contbg: "url('images/contact-bg.jpg')",
     }
   }
 },
