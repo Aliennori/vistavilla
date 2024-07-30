@@ -12,19 +12,26 @@
   <link href="./style.css" rel="stylesheet">
 </head>
 <body>
-    <header class="shadow-md sticky top-0 z-20 bg-accent-one">
-        <div class="flex justify-between  w-full  container">
+    <header class="shadow-md sticky top-0 z-30 bg-accent-one h-[90px]">
+        <div class=" mx-auto container flex justify-between h-full items-center">
         <a href="/" class="text-xl tracking-wide">
            <span class="text-accent-two">VISTA</span> VILLA
         </a>
         <nav>
-            <ul class="flex justify-between items-center">
+            <div class="cursor-pointer lg:hidden" id="hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+                  
+            </div>
+            <ul class=" fixed h-0 p-0 w-full bg-accent-one overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300x "
+            id="navlink">
                 <li class="navlink"><a href="" class="">Home</a></li>
                 <li class="navlink"><a href="">Properties</a></li>
                 <li class="navlink"><a href="">About</a></li>
                 <li class="navlink"><a href="">Contact Us</a></li>
                 <li class="navlink"><a href="">Sign up</a></li>
-                <li class="navlink btn"><a href="">Login</a></li>
+                <li class="navlink btn hidden lg:block"><a href="">Login</a></li>
             </ul>
         </nav>
         </div>

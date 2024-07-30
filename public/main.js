@@ -1,3 +1,12 @@
+const hamburger= document.querySelector('#hamburger');
+const navlink= document.querySelector('#navlink');
+
+hamburger.addEventListener('click', () => {
+  navlink.classList.toggle('nav-is-open');
+   
+});
+
+
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     slidesPerView: 3,

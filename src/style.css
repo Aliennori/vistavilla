@@ -53,4 +53,7 @@ a:hover{
 .btn3{
     @apply  bg-accent-two px-4 py-2 rounded-lg mt-6  hover:bg-primary  hover:text-accent-three transition duration-300;
 }
+.nav-is-open {
+    @apply h-[350px] p-6;
+}
 
